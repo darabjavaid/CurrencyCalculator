@@ -1,0 +1,5 @@
+@CurrencyCalculator_HostAddress = http://localhost:5031
+
+GET {{CurrencyCalculator_HostAddress}}/api/Currency/latest?baseCurrency=DKK
+Accept: application/json
+###
